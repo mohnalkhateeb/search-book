@@ -27,7 +27,55 @@
 .App-link {
   color: #61dafb;
 }
+.bookCard {
+  display: inline-flex;
+  width : 400px;
+  height: 300 px;
+  margin-left :5px;
+}
 
+.click {
+  color: blue;
+  display: inline;
+  width:160px;
+}
+h1{
+  text-align: center; 
+  color: white;
+   
+
+}
+.header
+{
+  /* background-color: blue; */
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxyC9-smSnrkcibuqCywm_rQ_TQxXk71N3NQ&usqp=CAU');
+  height: 10em;
+  padding-top: 3em;
+}
+.butts {
+  padding-left: 35em;
+  margin-top: 3em;
+  background-color: skyblue;
+}
+.cardshow
+{
+  padding-left: 5em;
+  margin-top: 10px;
+  background-color: grey;
+}
+.word
+{
+  width: 250px;
+}
+h6{
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+.all
+{
+  background-color: skyblue;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
