@@ -29,9 +29,10 @@
 }
 .bookCard {
   display: inline-flex;
-  width : 400px;
-  height: 300 px;
-  margin-left :5px;
+  width : 200px;
+  height: 800px;
+  margin-left :2px;
+  /* background-color: blueviolet; */
 }
 
 .click {
@@ -62,6 +63,7 @@ h1{
   padding-left: 5em;
   margin-top: 10px;
   background-color: grey;
+  padding-top: 10px;
 }
 .word
 {
@@ -75,6 +77,11 @@ h6{
 .all
 {
   background-color: skyblue;
+}
+.card1
+{
+  margin-left: 10px;
+  background-color: blueviolet;
 }
 @keyframes App-logo-spin {
   from {

@@ -22,14 +22,16 @@ export class App extends Component {
     axios
       .get(`https://www.googleapis.com/books/v1/volumes?q=${searchQuery}`)
       .then(tempArr => {
+        if(tempArr != undefined){
         this.setState({
           books: tempArr.data.items,
           showBooks: true
 
         })
+      }
       })
       .catch(error => {
-        alert('we are sory , no books are found by your search ')
+        alert('we are sory , no books are found by your search. please, refresh the page ')
         console.log(error);
       })
   }
