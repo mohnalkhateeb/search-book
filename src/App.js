@@ -48,7 +48,10 @@ export class App extends Component {
     })
   }
   autherSort = () => {
-    let bookForSort = this.state.books
+    let bookForSort = this.state.books.filter(book=>{
+      if(book.volumeInfo.authors != undefined) return book
+    })
+    
     bookForSort.sort((book1, book2) => {
       if (book1.volumeInfo.authors[0] < book2.volumeInfo.authors[0]) {
         return -1;
